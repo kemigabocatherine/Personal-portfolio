@@ -1,37 +1,39 @@
-* {
-    margin:0;
 
-}
 
-nav {
-    padding:20px;
+header {
+    display:block;
     position: fixed;
-}
-nav ul {
-    list-style-type:none;
-    text-align: center;
+    top:0px;
+    left:0px;
+    width:100%;
+    background-color: violet;
+    padding:10px;
 }
 
-nav ul li {
-    display:inline-block;
-}
-nav li a {
+nav a:visited {
+    color: wheat;
     text-decoration: none;
-    margin: 0px 20px;
-    color:white;
-    font-weight: 200;
-    text-transform: uppercase;
 }
-@media only screen and (max-width: 320px) {
-    body {
-      background-color: lightgreen;
-    }
+
+nav >li {
+    display: inline;
+    padding: 0;
 }
-@media only screen and (max-width: 240px) {
-    nav {
-      background-color: lightgreen;
-    }
+
+nav >ul >li  {
+    display: inline-block;
+    list-style: none;
+    margin: 0 5px 0 5px;
 }
+
+h1 {
+    text-align: center;
+
+}
+@media only screen (min-width: 720px)
+
+}
+
 #welcome-section {
     height: 100hv;
 }

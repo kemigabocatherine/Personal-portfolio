@@ -22,13 +22,16 @@ nav li a {
     font-weight: 200;
     text-transform: uppercase;
 }
-@media only screen and (max-width: 240px) {
+@media only screen and (max-width: 320px) {
     body {
       background-color: lightgreen;
     }
 }
 @media only screen and (max-width: 240px) {
-    body {
+    nav {
       background-color: lightgreen;
     }
+}
+#welcome-section {
+    height: 100hv;
 }
